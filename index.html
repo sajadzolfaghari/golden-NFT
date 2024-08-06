@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden NFT</title>
+    <!------------------- styles ------------------->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!------------------- scripts ------------------->
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- strat header -->
+    <header>
+        <div class="container p-0">
+
+            <!-- strat navbar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2 position-relative mb-5">
+                <div class="container-fluid p-0 justify-content-between">
+                    <a class="logo navbar-brand fs-2 fw-bold start-50" href="#">Golden NFT</a>
+
+                    <div class="d-lg-none d-flex justify-content-center align-items-center gap-4">
+
+                        <div class="input-top d-flex justify-content-center align-items-center position-relative">
+                            <input type="text" class="input-top-search rounded-2 p-1">
+                            <button class="input-top-btn position-absolute start-0 border-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512">
+                            <path
+                                d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg>
+                    </div>
+
+                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+
+
+
+                    <div class="slider p-4 collapse navbar-collapse link-light justify-content-lg-between align-items-lg-center"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0 gap-lg-4 gap-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">مقالات</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    آموزش NFT
+                                </a>
+                                <ul class="mini-slider p-2 text-end dropdown-menu fs-6 fw-light">
+                                    <li><a class="dropdown-item rounded-2 p-2" href="#">سرفصل دوره ها</a></li>
+                                    <li><a class="dropdown-item rounded-2 p-2" href="#">شرکت در دوره ها</a></li>
+                                    <!-- <li><hr class="dropdown-divider"></li> -->
+                                    <li><a class="dropdown-item rounded-2 p-2" href="#">دوره های رایگان</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">درباره ما</a>
+                            </li>
+                        </ul>
+                        <div class="d-lg-flex d-none justify-content-center align-items-center gap-4">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white"
+                                    viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                </svg>
+                            </a>
+
+                            <a href="#" class="login-link p-2 rounded-2 text-decoration-none text-white fs-6 fw-bold">
+                                <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M406.5 399.6C387.4 352.9 341.5 320 288 320l-64 0c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3l64 0c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z" />
+                                </svg>
+                                ورود/ثبت نام
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- finish navbar -->
+
+            <!-- strat header desc -->
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-7 col-12">
+                    <p class="vazir-thin fs-5 text-light fs-5">
+                        NFT یعنی توکن غیرمثلی یا همان توکن بی‌همتا !
+                    </p>
+                    <h1 class="title text-light mt-5 fw-bold fs-1">
+                        دنیای <span class="main-color">NFT</span> های شگفت انگیز!
+                    </h1>
+                    <p class="second-color mt-4 fs-5 lh-lg">
+                        ان اف تی‌ها یونیک و منحصر‌به‌فردند؛ یعنی اگر حتی یکی از این توکن‌ها را داشته باشید، چیزی را دارید که هیچکس دیگری در دنیا نمی‌تواند آن را داشته باشد و تنها مالک آن شما هستید!
+                    </p>
+                    <div class="btns-wrapper d-lg-flex justify-content-lg-center align-content-lg-center gap-3 mt-lg-5 mt-2 text-center
+                        
+                        ">
+                        <div class="d-lg-flex d-none position-relative w-50">
+                            <button class="input-dsc-btn position-absolute start-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg></button>
+                            <input type="text" class="border-main-color rounded-pill w-100 p-3">
+                        </div>
+                        <button class="rounded-pill w-50 h-100 bg-gradiant text-white fs-4 fw-bold">
+                            دریافت مشاوره رایگان
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 align-content-center justify-content-center">
+                    <img class="w-100" src="image/header_img.1png.png" alt="">
+                </div>
+            </div>
+            <!-- finish header desc -->
+        </div>
+    </header>
+    <!-- finish header -->
+</body>
+
+</html>

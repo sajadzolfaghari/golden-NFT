@@ -1,0 +1,143 @@
+@import url("roots.css");
+@import url("fonts.css");
+
+
+*a,
+*p,
+*h1,
+*h2,
+*h3,
+*h4,
+*h5,
+*h6 {
+    color: white !important;
+}
+
+body {
+    background-color: var(--bgc-color);
+    font-family: vazirNorm;
+}
+
+/* stat header */
+.navbar {
+    background-color: var(--bgc-color) !important;
+    z-index: 9999;
+}
+
+.logo {
+    color: var(--main-gold-color);
+}
+.logo:hover {
+    color: var(--main-gold-color);
+}
+.collapse ul a{
+    color: rgb(169, 169, 169) !important;
+    font-family: vazirBold;
+}
+
+.search-icon {
+    background-color: transparent;
+}
+
+.login-link {
+    background-color: var(--main-gold-color);
+    color: white !important;
+}
+.mini-slider {
+    font-family: vazirThin;
+    background: rgba(79, 86, 97, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(79, 86, 97, 0.68);
+}
+.mini-slider a{
+    font-family: vazirThin;
+}
+.mini-slider a:hover{
+    background: rgba(79, 86, 97, 0.38);
+}
+.input-top-search{
+    width: 10rem;
+    border: 4px solid var(--main-gold-color);
+    outline: none;
+}
+.input-top-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar::before{
+    content: '';
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    background-color: rgba(238, 195, 14, .2);
+    opacity: .6;
+    z-index: 0;
+    filter: blur(110px);
+    right: -210px;
+}
+
+
+.vazir-thin{
+    font-family: vazirThin;
+}
+.main-color{
+    color: var(--main-gold-color);
+}
+.title{
+    font-size: 3.5rem !important;
+}
+.second-color{
+    color: rgb(169, 169, 169) !important;
+}
+.border-main-color{
+    border: 4px solid var(--main-gold-color);
+}
+.btns-wrapper{
+    height: 4rem;
+}
+.input-dsc-btn{
+    background-color: transparent;
+    border: none;
+    top: 19px;
+    left: 11px !important;
+}
+.bg-gradiant{
+    background-image: linear-gradient(to right, var(--main-gold-color), #aa8b0f);
+}
+
+/* finish header */
+
+
+
+
+@media screen and (max-width:992px){
+    .slider {
+        background: rgba(79, 86, 97, 0.38);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.3px);
+        -webkit-backdrop-filter: blur(5.3px);
+        border: 1px solid rgba(79, 86, 97, 0.68);
+        
+    }
+}
+@media screen and (max-width:576px){
+    .input-top-search{
+        display: none;
+    }
+    .input-top-btn svg{
+        background-color: transparent;
+        color: aliceblue;
+        display: block;
+        width: 22px;
+        height: 22px;
+    }
+    .logo{
+        margin-right:5px ;
+    }
+}
