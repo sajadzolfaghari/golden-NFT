@@ -71,11 +71,11 @@ body {
 .navbar::before{
     content: '';
     position: absolute;
-    width: 40rem;
-    height: 40rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 100%;
     background-color: rgba(238, 195, 14, .2);
-    opacity: .6;
+    opacity: .8;
     z-index: 0;
     filter: blur(110px);
     right: -210px;
@@ -130,12 +130,37 @@ body {
     top: 400px;
     left: 40px;
 }
+.under-main-img{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .08);
+    top: 395px;
+    left: 195px;
+    backdrop-filter: blur(4px);
+}
+.under-main-img img {
+    width: 6rem;
+}
+
 
 /* finish header */
 
 
 
 
+@media screen and (max-width:1400px){
+    .under-main-img{
+        top: 340px;
+        left: 168px;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .under-main-img{
+        top: 278px;
+        left: 140px;
+    }
+
+}
 @media screen and (max-width:992px){
     .slider {
         background: rgba(79, 86, 97, 0.38);
@@ -145,6 +170,16 @@ body {
         -webkit-backdrop-filter: blur(5.3px);
         border: 1px solid rgba(79, 86, 97, 0.68);
         
+    }
+    .under-main-img{
+        top: 505px;
+        left: 260px;
+    }
+}
+@media screen and (max-width:768px){
+    .under-main-img{
+        top: 365px;
+        left: 210px;
     }
 }
 @media screen and (max-width:576px){
@@ -160,5 +195,30 @@ body {
     }
     .logo{
         margin-right:5px ;
+    }
+}
+@media screen and (max-width:476px){
+    .under-main-img{
+        top: 305px;
+        left: 155px;
+        width: 11rem;
+    }
+    .main-img-container::before{
+        top: 10px;
+        left: 255px;
+    }
+    .main-img-container::after{
+        top: 340px;
+        left: 80px;
+    }
+    .btns-wrapper button{
+        width: 75% !important;
+    }
+}
+@media screen and (max-width:400px){
+    .under-main-img{
+        top: 230px;
+        left: 115px;
+        width: 11rem;
     }
 }
