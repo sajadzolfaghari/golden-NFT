@@ -110,6 +110,27 @@ body {
     background-image: linear-gradient(to right, var(--main-gold-color), #aa8b0f);
 }
 
+.main-img-container::before{
+    content: "";
+    background-image: url("../image/M.png");
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    top: 25px;
+    left: 360px;
+}
+.main-img-container::after{
+    content: "";
+    background-image: url("../image/o.png");
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    top: 400px;
+    left: 40px;
+}
+
 /* finish header */
 
 
