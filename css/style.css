@@ -254,6 +254,26 @@ body {
 }
 /* finish hotbid */
 
+/* start speed part */
+.speed-card{
+    border: 1px solid #EEC30E;
+    background: linear-gradient(to bottom right, rgba(255, 204, 0, 0.15) , rgba(255, 255, 255, 0.15));
+}
+.speed-card-purple{
+    border: 1px solid #760AFF;
+    background: linear-gradient(to bottom right, rgb(111, 0, 255, 00.15) , rgba(255, 255, 255, 0.15));
+}
+.speed-card_icon{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(255, 255, 255, .1);
+    top: -41px;
+    right: 30px;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+/* finish speed part */
+
 /* finish main */
 
 
