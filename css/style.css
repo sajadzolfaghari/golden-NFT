@@ -274,6 +274,21 @@ body {
 }
 /* finish speed part */
 
+
+/* start trend part */
+.trend-card-desc{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 6rem !important;
+}
+.trend-card_img-container{
+    text-align: center !important;
+    transform: translateY(75px);
+}
+.trend-card_img{
+    width: 85% !important;
+}
+/* finish speed part */
+
 /* finish main */
 
 
