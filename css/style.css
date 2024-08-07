@@ -107,7 +107,7 @@ body {
     left: 11px !important;
 }
 .bg-gradiant{
-    background-image: linear-gradient(to right, var(--main-gold-color), #aa8b0f);
+    background-image: linear-gradient(to left, var(--main-gold-color), #450a91);
 }
 
 .main-img-container::before{
@@ -143,6 +143,22 @@ body {
 
 
 /* finish header */
+
+/* start main */
+
+/* strat wallet */
+.wallet-title{
+    width: 14.5rem;
+    height: 6rem;
+}
+.wallet-title__icon{
+    width: 5rem;
+    height: 5rem;
+    background-image: linear-gradient(to left, var(--main-gold-color), #450a91) !important;
+}
+/* finish wallet */
+
+/* finish main */
 
 
 
