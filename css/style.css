@@ -165,7 +165,7 @@ body {
 
 /* strat wallet */
 .wallet-title {
-    width: 14.5rem;
+    /* width: 14.5rem; */
     height: 6rem;
 }
 
@@ -313,6 +313,15 @@ body {
 
     .logo {
         margin-right: 5px;
+    }
+    .offer{
+        font-size: 1rem;
+    }
+    .offer-eng{
+        font-size: 1rem;
+    }
+    .see-all{
+        font-size: .8rem;
     }
 
 }
