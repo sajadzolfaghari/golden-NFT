@@ -178,21 +178,25 @@ body {
 .grey-color {
     color: rgb(169, 169, 169) !important;
 }
-.wallet-box{
+
+.wallet-box {
     background-color: #161E2A;
-    
+
 }
-.wallet-box-gold{
+
+.wallet-box-gold {
     background-image: linear-gradient(to top left, var(--main-gold-color), #07101D) !important;
     height: 10rem !important;
     padding: 1px !important;
 }
-.wallet-box-purple{
+
+.wallet-box-purple {
     background-image: linear-gradient(to top left, #760AFF, #07101D) !important;
     height: 10rem !important;
     padding: 1px !important;
 }
-.wallet-box-gold::after{
+
+.wallet-box-gold::after {
     content: "";
     position: absolute;
     width: 22px;
@@ -203,7 +207,8 @@ body {
     right: -7px;
     transform: rotate(-48deg);
 }
-.wallet-box-purple::after{
+
+.wallet-box-purple::after {
     content: "";
     position: absolute;
     width: 22px;
@@ -214,21 +219,49 @@ body {
     right: -7px;
     transform: rotate(-48deg);
 }
+
 /* finish wallet */
+
+/* strat hotbid */
+
+.hotbid-wrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.timer{
+    top: 2.5rem;
+    left: 10%;
+    height: 2.8rem;
+}
+
+.timer-right, .timer-left {
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(8.7px);
+}
+.hotbid-after{
+    content: "";
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    background: var(--main-gold-color);
+    z-index: -1;
+    filter: blur(150px);
+    opacity: .4;
+    top: 32%;
+    right: 33%;
+}
+/* finish hotbid */
 
 /* finish main */
 
 
 
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1400px) {}
 
-    
-}
-@media screen and (max-width:1200px) {
-
-    
-}
+@media screen and (max-width:1200px) {}
 
 @media screen and (max-width:992px) {
     .slider {
@@ -243,14 +276,13 @@ body {
 
 }
 
-@media screen and (max-width:768px) {
-    
-}
+@media screen and (max-width:768px) {}
 
 @media screen and (max-width:576px) {
     .input-top-search {
         display: none;
     }
+
     .input-top-btn svg {
         background-color: transparent;
         color: aliceblue;
@@ -258,21 +290,24 @@ body {
         width: 22px;
         height: 22px;
     }
+
     .logo {
         margin-right: 5px;
     }
-    
+
 }
 
 @media screen and (max-width:476px) {
     .under-main-img {
-      width: 9rem;
+        width: 9rem;
     }
+
     .btns-wrapper button {
         width: 75% !important;
     }
+    .hotbid-after{
+        display: none;
+    }
 }
 
-@media screen and (max-width:400px) {
-
-}
+@media screen and (max-width:400px) {}
