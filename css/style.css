@@ -1,5 +1,6 @@
 @import url("roots.css");
 @import url("fonts.css");
+@import url("responsive.css");
 
 
 *a,
@@ -351,78 +352,11 @@ body {
 /* finish main */
 
 
+/* strat footer */
 
-
-@media screen and (max-width:1400px) {}
-
-@media screen and (max-width:1200px) {}
-
-@media screen and (max-width:992px) {
-    .slider {
-        background: rgba(79, 86, 97, 0.38);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5.3px);
-        -webkit-backdrop-filter: blur(5.3px);
-        border: 1px solid rgba(79, 86, 97, 0.68);
-
-    }
-
+.footer{
+    border-top:1px solid rgba(255, 255, 255, .3);
+    background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 52, 164, 0.20) 21.7%, rgba(7, 15, 28, 0.00) 100%);
 }
+/* finish footer */
 
-@media screen and (max-width:768px) {
-    .newsletter-input{
-        width: 80% !important;
-    }
-}
-
-@media screen and (max-width:576px) {
-    .input-top-search {
-        display: none;
-    }
-
-    .input-top-btn svg {
-        background-color: transparent;
-        color: aliceblue;
-        display: block;
-        width: 22px;
-        height: 22px;
-    }
-
-    .logo {
-        margin-right: 5px;
-    }
-    .offer{
-        font-size: 1rem;
-    }
-    .offer-eng{
-        font-size: 1rem;
-    }
-    .see-all{
-        font-size: .8rem;
-    }
-    .price-part{
-        font-size: .8rem
-    }
-    .creators-after::after{
-        display: none;
-    }
-    .newsletter-wrapper::before{
-        display: none;
-    }
-}
-
-@media screen and (max-width:476px) {
-    .under-main-img {
-        width: 9rem;
-    }
-
-    .btns-wrapper button {
-        width: 75% !important;
-    }
-    .hotbid-after{
-        display: none;
-    }
-}
-
-@media screen and (max-width:400px) {}
