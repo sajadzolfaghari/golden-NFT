@@ -287,7 +287,31 @@ body {
 .trend-card_img{
     width: 85% !important;
 }
-/* finish speed part */
+/* finish trend part */
+
+
+/* start creators part */
+
+.creators-after::after{
+    position: absolute;
+    content: "";
+    width: 60rem;
+    height: 60rem;
+    border-radius: 100%;
+    background-color: rgba(238, 195, 14, .3);
+    z-index: -1;
+    opacity: .4;
+    filter: blur(50px);
+    top: -40px;
+    right: -486px;
+}
+
+.creator-box{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+/* finish creators part */
 
 /* finish main */
 
@@ -337,6 +361,12 @@ body {
     }
     .see-all{
         font-size: .8rem;
+    }
+    .price-part{
+        font-size: .8rem
+    }
+    .creators-after::after{
+        display: none;
     }
 
 }
